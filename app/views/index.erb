@@ -1,0 +1,10 @@
+<h1>Welcome To Our Basic Magazine App!</h1>
+
+<% @articles.each do |article|%>
+    <ul>
+        <li><%= article.title %></li>
+        <li><%= article.content %></li>
+
+    </ul>
+
+<% end %>
